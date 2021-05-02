@@ -19,6 +19,11 @@ public class Knight extends AbstractPiece implements Movable{
     }
 
     @Override
+    public List<Location> getValidMoves(Board board, Square square) {
+        return null;
+    }
+
+    @Override
     public void makeMove(Square square) {
         System.out.println(this.getName() + "-> makeMove()");
     }

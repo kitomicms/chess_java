@@ -11,7 +11,7 @@ public class Game {
         //board.printBoard();
         PieceColor color = PieceColor.DARK;
         //Movable pawn = new Pawn(color);
-        Queen queen = new Queen(color);
+        Movable queen = new Queen(color);
         //Game.printPiece(pawn);
         Game.printPiece(queen);
     }

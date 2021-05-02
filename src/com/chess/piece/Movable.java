@@ -6,6 +6,7 @@ import com.chess.squares.Square;
 
 import java.util.List;
 
+// this thing
 public interface Movable {
     List<Location> getValidMoves(Board board);
     List<Location> getValidMoves(Board board, Square square);
